@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@100;400;700&family=Poppins:ital,wght@0,500;1,600;1,700&display=swap');
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -13,9 +15,69 @@ main{
 }
 .container{
     height: 70vh;
-    border: 1px solid red;
-    display: flex;
+    width: 40vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    display: flex;
     justify-content: space-around;
     flex-direction: column;  
     color: aliceblue; 
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+}
+#nft{
+    margin-top: -10px;
+    height: 50%;
+    border-radius: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+p, span{
+    font-size: 16px;
+    color: hsla(215, 51%, 70%, 70%);
+    font-family: 'Outfit' ;
+
+    
+}
+#eth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+    color: hsl(178, 100%, 50%);
+}
+#avatar{
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    
+}
+.creatorname{
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 80%)
+}
+#clock{
+    display: flex;
+    align-items: center;
+    color: hsla(215, 51%, 70%, 70%);
+    gap: 5px;
+    font-size: 18px;
+}
+.name{
+    font-family: 'Outfit';
+    font-size: 19px;
+    color: hsl(0, 0%, 100%);
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color:hsla(215, 51%, 70%, 20%);
+  
 }
